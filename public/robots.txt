@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://123movies-netflix.pages.dev
+Sitemap: https://123movies-flix.pages.dev
