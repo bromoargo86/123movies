@@ -50,7 +50,7 @@ export default function RootLayout({ children }) {
             </main>
             <footer className="w-full max-w-7xl mx-auto px-4 py-8">
               {/* Tempatkan div Native Banner di sini, sebelum Footer */}
-              <div id="container-ce4c42ba51eddb0024dfa25613d99fda"></div>
+              <div id="container-aeaf4b8167d2b9a051baa686b34245c3"></div>
               <Footer />
             </footer>
           </div>
