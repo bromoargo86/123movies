@@ -13,7 +13,7 @@ export default function About() {
         <meta property="og:title" content="123Movies - Free HD Streaming Platform" />
         <meta property="og:description" content="Stream movies, TV shows and web series free in HD quality on 123Movies. No registration required." />
         <meta property="og:image" content="https://live.staticflickr.com/65535/54786910520_0740342bed_b.jpg" />
-        <meta property="og:url" content="https://123movies-netflix.pages.dev/about" />
+        <meta property="og:url" content="https://123movies-lab.vercel.app/about" />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
 
@@ -174,10 +174,10 @@ export default function About() {
             "@context": "https://schema.org",
             "@type": "WebSite",
             "name": "123Movies",
-            "url": "https://123movies-netflix.pages.dev/",
+            "url": "https://123movies-lab.vercel.app/",
             "potentialAction": {
               "@type": "SearchAction",
-              "target": "https://123movies-netflix.pages.dev/search?q={search_term_string}",
+              "target": "https://123movies-lab.vercel.app/search?q={search_term_string}",
               "query-input": "required name=search_term_string"
             },
             "description": "Free HD streaming of movies, TV shows and web series without registration"
