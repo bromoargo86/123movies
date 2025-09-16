@@ -39,7 +39,7 @@ export async function generateMetadata({ params }) {
   if (CATEGORIES.includes(slug)) {
     const title = slug.replace(/_/g, ' ').toUpperCase();
     return {
-      title: `Fmovies - ${title} Movies`,
+      title: `123Movies - ${title} Movies`,
       description: `Explore the ${title} movies collection on Fmovies.`,
     };
   }
@@ -51,7 +51,7 @@ export async function generateMetadata({ params }) {
     const genres = await getMovieGenres();
     const genreName = genres.find(g => g.id == genreId)?.name || 'Unknown';
     return {
-      title: `Fmovies - ${genreName} Movies`,
+      title: `123Movies - ${genreName} Movies`,
       description: `Discover ${genreName} movies on Fmovies.`,
     };
   }
