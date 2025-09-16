@@ -40,7 +40,7 @@ export async function generateMetadata({ params }) {
     const title = slug.replace(/_/g, ' ').toUpperCase();
     return {
       title: `123Movies - ${title} Movies`,
-      description: `Explore the ${title} movies collection on Fmovies.`,
+      description: `Explore the ${title} movies collection on 123Movies.`,
     };
   }
 
@@ -52,7 +52,7 @@ export async function generateMetadata({ params }) {
     const genreName = genres.find(g => g.id == genreId)?.name || 'Unknown';
     return {
       title: `123Movies - ${genreName} Movies`,
-      description: `Discover ${genreName} movies on Fmovies.`,
+      description: `Discover ${genreName} movies on 123Movies.`,
     };
   }
 
