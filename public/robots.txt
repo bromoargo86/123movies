@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://123movies-flix.pages.dev
+Sitemap: https://123movies-lab.vercel.app
