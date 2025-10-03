@@ -89,10 +89,10 @@ export default function About() {
                 <h3 className="text-lg font-bold text-white mb-4">Quick Links</h3>
                 <div className="space-y-3">
                   {[
-                    { href: "/movie/genre/science-fiction", label: "🎬 Browse Movies", color: "orange" },
-                    { href: "/tv-show/genre/action-&-adventure", label: "📺 TV Series", color: "purple" },
+                    { href: "/movie/genre/crime", label: "🎬 Browse Movies", color: "orange" },
+                    { href: "/tv-show/genre/mystery", label: "📺 TV Series", color: "purple" },
                     { href: "/Trending", label: "🔥 Trending", color: "red" },
-                    { href: "/movie/genre/animation", label: "🎭 Genres", color: "blue" }
+                    { href: "/tv-show/genre/animation", label: "🎭 Genres", color: "blue" }
                   ].map((link, index) => (
                     <a
                       key={index}
@@ -153,13 +153,13 @@ export default function About() {
                       icon: "🎭",
                       title: "Comprehensive Database",
                       description: "Thousands of movies and TV series across all genres",
-                      link: "/adult/erotic-movies"
+                      link: "/adult/adult-movies"
                     },
                     {
                       icon: "🔍",
                       title: "Smart Search",
                       description: "Advanced search with filters and recommendations",
-                      link: "/search?query=sex"
+                      link: "/search?query=avengers"
                     },
                     {
                       icon: "💎",
@@ -171,13 +171,13 @@ export default function About() {
                       icon: "🌟",
                       title: "User Reviews",
                       description: "Real ratings and reviews from our community",
-                      link: "/movie/the-shawshank-redemption-1994"
+                      link: "/tv-show/breaking-bad-2008"
                     },
                     {
                       icon: "🎬",
                       title: "Trailers & Clips",
                       description: "Watch previews before streaming",
-                      link: "/movie/the-godfather-1972"
+                      link: "/tv-show/marvel-zombies-2025"
                     },
                     {
                       icon: "📱",
@@ -239,13 +239,13 @@ export default function About() {
                 </p>
                 <div className="flex flex-wrap justify-center gap-4">
                   <a 
-                    href="/movie/top_rated" 
+                    href="/movie/popular" 
                     className="bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white font-bold py-4 px-8 rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
                   >
                     🎬 Browse Movies
                   </a>
                   <a 
-                    href="/tv-show/top_rated" 
+                    href="/tv-show/popular" 
                     className="bg-gradient-to-r from-purple-500 to-blue-500 hover:from-purple-600 hover:to-blue-600 text-white font-bold py-4 px-8 rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
                   >
                     📺 Explore TV Series
