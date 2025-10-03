@@ -13,7 +13,7 @@ export const metadata = {
     siteName: '123Movies',
     images: [
       {
-        url: 'https://live.staticflickr.com/65535/54786910520_0740342bed_b.jpg',
+        url: 'https://live.staticflickr.com/65535/54812286746_f853554453_b.jpg',
         width: 1200,
         height: 630,
         alt: '123Movies - Free HD Movies, TV Shows and Web Series',
@@ -28,7 +28,7 @@ export const metadata = {
     creator: '@WatchStream123',
     title: '123Movies | Stream Movies, TV Shows and Web Series Free HD',
     description: '123Movies is your one-stop destination for free movies, TV shows, and web series. Download thousands of titles in HD quality, with unlimited access to the latest blockbusters and trending series. Start your free entertainment journey today!',
-    images: ['https://live.staticflickr.com/65535/54786910520_0740342bed_b.jpg'],
+    images: ['https://live.staticflickr.com/65535/54812286746_f853554453_b.jpg'],
   },
   // Tambahkan tag meta eksplisit untuk Facebook
   other: {
